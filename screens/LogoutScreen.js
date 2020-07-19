@@ -18,9 +18,7 @@ import { MonoText } from '../components/StyledText';
 import { createStackNavigator, } from 'react-navigation';
 
 export default class Logout extends React.Component {
-    static navigationOptions = {
-        header: null,
-    };
+ 
     state = {
        user: '',
        loggedIn: true,

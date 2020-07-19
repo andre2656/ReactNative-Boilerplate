@@ -18,9 +18,7 @@ import { MonoText } from '../components/StyledText';
 import { createStackNavigator, } from 'react-navigation';
 
 export default class Measure extends React.Component {
-    static navigationOptions = {
-        header: null,
-    };
+ 
     state = {
         Username: 'Dcampbell',
         Firstname: 'Dre',

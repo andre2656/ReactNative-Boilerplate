@@ -12,9 +12,7 @@ import {
 } from 'react-native';
 import { Icon, Button } from 'react-native-elements';
 export default class SettingsScreen extends React.Component {
-  static navigationOptions = {
-    header: null,
-  };
+ 
   state= {
     Username: 'username',
     Firstname: 'Dre',

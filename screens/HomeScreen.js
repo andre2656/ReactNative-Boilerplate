@@ -14,9 +14,7 @@ import { WebBrowser } from 'expo';
 import { MonoText } from '../components/StyledText';
 import { Icon, Button } from 'react-native-elements';
 export default class HomeScreen extends React.Component {
-  static navigationOptions = {
-    header: null,
-  };
+
   state={
   };
   menuClicked = () => {
