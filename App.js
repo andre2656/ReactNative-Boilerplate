@@ -76,7 +76,9 @@ export class Home extends React.Component {
     this.props.navigation.navigate('Main')
   
   }
-
+  static navigationOptions = () => ({
+    headerShown: false,
+  });
 
   componentDidMount() {
 
